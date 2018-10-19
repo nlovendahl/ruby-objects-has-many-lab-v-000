@@ -6,16 +6,8 @@ class Song
     @name = name
   end
 
-  def artist
-    @artist
-  end
-
   def artist_name
-    if self.artist
-      self.artist.name
-    else
-      nil
-    end
+    self.artist.name
   end
 
 end
